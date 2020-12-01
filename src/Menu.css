@@ -1,0 +1,24 @@
+#item{
+    list-style: none;
+    margin:2vh;
+    padding:2vh;
+}
+#lista-menu{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-items: center;
+    justify-content: center;
+}
+#menu{
+    width:100vw;
+    height:70vh;
+    overflow:auto;
+}
+
+#icono-boton img{
+    width:10vw;
+}
+.hidden{
+    visibility: hidden;
+}

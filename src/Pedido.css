@@ -1,0 +1,9 @@
+#pedidoUnidad{
+    list-style: none;
+}
+#pedido
+{
+    margin:auto;
+    padding:5em;
+    width:80vw;
+}
