@@ -8,15 +8,30 @@
     flex-direction: row;
     flex-wrap: nowrap;
     align-items: center;
-    justify-content: center;
+    justify-content: left;
+    padding:0em 10em;
+}
+#menu h1{
+    padding: 0.5em;
 }
 #menu{
     width:100vw;
     overflow:auto;
+    scroll-behavior: smooth;
 }
 
-#icono-boton img{
+#icono-boton-derecho{
+    left:90vw;
+}
+#icono-boton-izquierdo{
+    left:0vw;
+}
+.icono-boton img{
     width:10vw;
+}
+.icono-boton{
+    position: absolute;
+    
 }
 .hidden{
     visibility: hidden;

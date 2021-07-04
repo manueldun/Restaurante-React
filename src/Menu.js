@@ -19,10 +19,20 @@ class Menu extends React.Component {
 
     }
     handleClickRight() {
-        this.setState({ menuIndex: this.state.menuIndex + 1 });
+        const menu = document.getElementById("menu");
+        menu.scrollBy({
+            top: 0,
+            left: 100,
+            behaviour: 'smooth'
+          })
     }
     handleClickLeft() {
-        this.setState({ menuIndex: this.state.menuIndex - 1 });
+        const menu = document.getElementById("menu");
+        menu.scrollBy({
+            top: 0,
+            left: -100,
+            behaviour: 'smooth'
+          });
     }
     render() {
         const menu = [
@@ -52,7 +62,7 @@ class Menu extends React.Component {
                 precio: 4.0
             }
         ];
-        const menuList = [...menu].splice(this.state.menuIndex, 2).map((comida) => {
+        const menuList = [...menu].map((comida) => {
             return (
                 <li id="item" key={comida.nombreDeComida}>
                     <Comida image={comida.image}
@@ -66,19 +76,17 @@ class Menu extends React.Component {
         return (
             <div id="menu">
 
-                <h2>Menú</h2>
+                <h1>Menú</h1>
 
                 <ul id="lista-menu">
-                    <div id="icono-boton" 
-                    className={this.state.menuIndex === 0 && "hidden"}>
+                    <div id="icono-boton-izquierdo" className="icono-boton">
                         <img src={flechaIzq} width="30" alt="flecha"
                             onClick={this.handleClickLeft} />
                     </div>
                     {menuList}
-                    <div id="icono-boton" 
-                    className={(this.state.menuIndex === (menu.length -2)) && "hidden"}>
-                        <img src={flechaDer} width="30" alt="flecha"
-                            onClick={this.handleClickRight} />
+                    <div id="icono-boton-derecho" className="icono-boton">
+                        <img src={flechaDer} width="30" alt="flecha" 
+                        onClick={this.handleClickRight} />
                     </div>
                 </ul>
             </div >
