@@ -1,6 +1,8 @@
 header{
   height:8vh;
-  
+  background-color: rgb(247, 238, 187);
+  padding: 1em;
+  color:#000;
 }
 h1{
   margin:auto;
@@ -21,7 +23,7 @@ h1{
 }
 #bienvenida
 {
-  font-size: 2vw;
+  font-size: 1.5vw;
   padding:3vw;
   margin: 3vw;
   background-color: rgba(255,255,255,0.7);
@@ -29,8 +31,9 @@ h1{
 }
 #oferta
 {
-  padding:4vw;
-  margin:4vw;
+  font-size: medium;
+  padding:3vw;
+  margin:3vw;
   background-color: rgba(255,255,255,0.7);
   color:rgb(0,0,0);
 }
