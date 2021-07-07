@@ -4,11 +4,12 @@
 #pedido
 {
     position: fixed;
-    left:100vw;
     top:15vh;
     color:rgb(10,10,10);
     font-size: small;
     color:azure;
+    transform: translateX(0);
+    left: 100vw;
 }
 #icon{
     position: absolute;

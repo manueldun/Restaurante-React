@@ -7,7 +7,7 @@ class Pedido extends React.Component {
     constructor(props) {
         super(props);
         this.handleClick = this.handleClick.bind(this);
-        this.state = {orderPosition:"backwards"};
+        this.state = { orderPosition: "backwards" };
 
     }
     handleClick(indice) {
@@ -15,24 +15,36 @@ class Pedido extends React.Component {
     }
     revealOrder() {
         const keyframesForward = [
-            { left: "100vw" },
-            { left: "70vw" }
+            {
+                transform: "translateX(0)",
+                left: "100vw"
+            },
+            {
+                transform: "translateX(-110%)",
+                left: "100vw"
+            }
         ];
         const keyframesBackwards = [
-            { left: "70vw" },
-            { left: "100vw" }
+            {
+                transform: "translateX(-110%)",
+                left: "100vw"
+            },
+            {
+                transform: "translateX(0)",
+                left: "100vw"
+            },
         ];
         const timing = {
             duration: 500,
-            fill:"forwards"
+            fill: "forwards"
         };
 
-        this.setState({orderPosition:this.state.orderPosition==="forwards"?"backwards":"forwards"},()=>{
-            const keyframes = this.state.orderPosition==="forwards"?keyframesForward:keyframesBackwards;
-            document.getElementById("pedido").animate(keyframes,timing);
+        this.setState({ orderPosition: this.state.orderPosition === "forwards" ? "backwards" : "forwards" }, () => {
+            const keyframes = this.state.orderPosition === "forwards" ? keyframesForward : keyframesBackwards;
+            document.getElementById("pedido").animate(keyframes, timing);
         });
 
-        
+
     }
     render() {
         const emptyOrderNote = (<h1>No hay nada en su pedido.</h1>);
