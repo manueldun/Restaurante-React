@@ -22,15 +22,15 @@ class Menu extends React.Component {
         const menu = document.getElementById("menu");
         menu.scrollBy({
             top: 0,
-            left: 100,
+            left: 200,
             behaviour: 'smooth'
-          })
+          });
     }
     handleClickLeft() {
         const menu = document.getElementById("menu");
         menu.scrollBy({
             top: 0,
-            left: -100,
+            left: -200,
             behaviour: 'smooth'
           });
     }
