@@ -4,26 +4,24 @@
 #pedido
 {
     position: fixed;
-    left:70vw;
-    margin:auto;
-    padding:2em;
+    left:100vw;
+    top:15vh;
     color:rgb(10,10,10);
     font-size: small;
-    display: flex;
-    flex-direction: row;
     color:azure;
-    width:100%;
 }
 #icon{
-    
+    position: absolute;
     border-radius: 1em 0 0 1em;
     padding:2em;
     background-color: rgb(200,10,10);
-    height:100%;
+    height:fit-content;
+    transform: translateX(-100%);
+
 }
 #cart-content{
-    flex-direction: row;
     background-color: rgb(200,10,10);
     padding:1em;
     border-radius: 0em 1em 1em 1em;
+    width:max-content;
 }

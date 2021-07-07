@@ -9,7 +9,8 @@
     flex-wrap: nowrap;
     align-items: center;
     justify-content: left;
-    padding:0em 10em;
+    padding:0 5em;
+    overflow-x: auto;
 }
 #menu h1{
     padding: 0.5em;
@@ -21,9 +22,11 @@
 }
 
 #icono-boton-derecho{
-    left:90vw;
+    position:absolute;
+    left:80vw;
 }
 #icono-boton-izquierdo{
+    position:absolute;
     left:0vw;
 }
 .icono-boton img{

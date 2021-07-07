@@ -15,12 +15,12 @@ class Pedido extends React.Component {
     }
     revealOrder() {
         const keyframesForward = [
-            { left: "70vw" },
-            { left: "50vw" }
+            { left: "100vw" },
+            { left: "70vw" }
         ];
         const keyframesBackwards = [
-            { left: "50vw" },
-            { left: "70vw" }
+            { left: "70vw" },
+            { left: "100vw" }
         ];
         const timing = {
             duration: 500,
