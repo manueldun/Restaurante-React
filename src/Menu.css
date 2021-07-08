@@ -3,37 +3,37 @@
     margin:2vh;
     padding:2vh;
 }
+
 #lista-menu{
+    margin:0;
     display: flex;
     flex-direction: row;
     flex-wrap: nowrap;
     align-items: center;
     justify-content: left;
-    padding:0 5em;
+    overflow-x: scroll;
+    padding:0 10em;
+    scroll-behavior: smooth;
+    
 }
 #menu h1{
     padding: 0.5em;
 }
 #menu{
-    width:100vw;
-    overflow:auto;
-    scroll-behavior: smooth;
+    width:100%;
 }
 
 #icono-boton-derecho{
-    position:absolute;
-    left:80vw;
+    right:1em;
 }
 #icono-boton-izquierdo{
-    position:absolute;
-    left:0vw;
+    left:1em;
 }
 .icono-boton img{
-    width:10vw;
+    width:150px;
 }
 .icono-boton{
-    position: absolute;
-    
+    position:absolute;
 }
 .hidden{
     visibility: hidden;

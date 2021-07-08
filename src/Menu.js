@@ -19,7 +19,7 @@ class Menu extends React.Component {
 
     }
     handleClickRight() {
-        const menu = document.getElementById("menu");
+        const menu = document.getElementById("lista-menu");
         menu.scrollBy({
             top: 0,
             left: 200,
@@ -27,7 +27,7 @@ class Menu extends React.Component {
           });
     }
     handleClickLeft() {
-        const menu = document.getElementById("menu");
+        const menu = document.getElementById("lista-menu");
         menu.scrollBy({
             top: 0,
             left: -200,
