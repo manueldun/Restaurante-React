@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/Restaurante-React/static/css/main.f53e95f7.chunk.css",
-    "main.js": "/Restaurante-React/static/js/main.bdcddfea.chunk.js",
-    "main.js.map": "/Restaurante-React/static/js/main.bdcddfea.chunk.js.map",
+    "main.css": "/Restaurante-React/static/css/main.f309f1fb.chunk.css",
+    "main.js": "/Restaurante-React/static/js/main.3746e2d1.chunk.js",
+    "main.js.map": "/Restaurante-React/static/js/main.3746e2d1.chunk.js.map",
     "runtime-main.js": "/Restaurante-React/static/js/runtime-main.ad3f9e1b.js",
     "runtime-main.js.map": "/Restaurante-React/static/js/runtime-main.ad3f9e1b.js.map",
     "static/js/2.530bd19d.chunk.js": "/Restaurante-React/static/js/2.530bd19d.chunk.js",
@@ -10,21 +10,22 @@
     "static/js/3.1c64d433.chunk.js": "/Restaurante-React/static/js/3.1c64d433.chunk.js",
     "static/js/3.1c64d433.chunk.js.map": "/Restaurante-React/static/js/3.1c64d433.chunk.js.map",
     "index.html": "/Restaurante-React/index.html",
-    "static/css/main.f53e95f7.chunk.css.map": "/Restaurante-React/static/css/main.f53e95f7.chunk.css.map",
+    "static/css/main.f309f1fb.chunk.css.map": "/Restaurante-React/static/css/main.f309f1fb.chunk.css.map",
     "static/js/2.530bd19d.chunk.js.LICENSE.txt": "/Restaurante-React/static/js/2.530bd19d.chunk.js.LICENSE.txt",
-    "static/media/boton-flecha-der.dce3a013.svg": "/Restaurante-React/static/media/boton-flecha-der.dce3a013.svg",
-    "static/media/boton-flecha-izq.ac65a9e0.svg": "/Restaurante-React/static/media/boton-flecha-izq.ac65a9e0.svg",
+    "static/media/boton-flecha-der.56b8a243.svg": "/Restaurante-React/static/media/boton-flecha-der.56b8a243.svg",
+    "static/media/boton-flecha-izq.d1d0ce9c.svg": "/Restaurante-React/static/media/boton-flecha-izq.d1d0ce9c.svg",
     "static/media/ensaladaCesar.ae684de3.jpg": "/Restaurante-React/static/media/ensaladaCesar.ae684de3.jpg",
     "static/media/espaguetisCarbonara.c8ee2195.jpg": "/Restaurante-React/static/media/espaguetisCarbonara.c8ee2195.jpg",
     "static/media/hamburguesa.84ae2678.jpg": "/Restaurante-React/static/media/hamburguesa.84ae2678.jpg",
     "static/media/lasagna.48757f23.jpg": "/Restaurante-React/static/media/lasagna.48757f23.jpg",
+    "static/media/logo delivery.b19b9549.svg": "/Restaurante-React/static/media/logo delivery.b19b9549.svg",
     "static/media/pizza.2c09bf57.jpg": "/Restaurante-React/static/media/pizza.2c09bf57.jpg",
     "static/media/App.css": "/Restaurante-React/static/media/restaurante3.43387559.jpg"
   },
   "entrypoints": [
     "static/js/runtime-main.ad3f9e1b.js",
     "static/js/2.530bd19d.chunk.js",
-    "static/css/main.f53e95f7.chunk.css",
-    "static/js/main.bdcddfea.chunk.js"
+    "static/css/main.f309f1fb.chunk.css",
+    "static/js/main.3746e2d1.chunk.js"
   ]
 }
