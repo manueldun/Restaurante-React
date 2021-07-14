@@ -2,6 +2,7 @@ import React from 'react';
 import "./Pedido";
 import { Link } from "react-router-dom";
 import "./Pedido.css"
+import deliveryIcon from './imagenes/logo delivery.svg';
 class Pedido extends React.Component {
 
     constructor(props) {
@@ -61,7 +62,8 @@ class Pedido extends React.Component {
             <div id="pedido">
                 <div id="icon"
                     onClick={() => this.revealOrder()}
-                ><h1>carro</h1></div>
+                ><img src={deliveryIcon} width="100" alt="flecha" 
+                onClick={this.handleClickRight} /></div>
                 <div id="cart-content">
                     {pedido.length > 0 ? orderNote : emptyOrderNote}
                     <ul>
