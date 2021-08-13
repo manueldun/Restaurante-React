@@ -24,7 +24,19 @@ class Checkout extends React.Component {
                     eliminarPedido={this.eliminarProductoDePedido}
                     confirmar={false} />
                 <div id="paymentInfo">
-                    <label>DatosBancarios
+                    <label>Nombre y Apellido: 
+                        <input type="text" className="textField marginVertical"></input>
+                    </label><br/>
+                    <label>Cédula: 
+                        <input type="text" className="textField marginVertical"></input>
+                    </label><br/>
+                    <label>Número de Tarjeta de Crédito: 
+                        <input type="text" className="textField marginVertical"></input>
+                    </label><br/>
+                    <label>Número de Seguridad de la Tarjeta de Crédito: 
+                        <input type="text" className="textField marginVertical"></input>
+                    </label><br/>
+                    <label>Fecha de Expiración de la Tarjeta de Crédito: 
                         <input type="text" className="textField marginVertical"></input>
                     </label><br/>
                     <label>Dirección: 

@@ -1,7 +1,7 @@
 
 import React from 'react';
 import './Comida.css';
-
+import './GeneralStyle.css'
 class Comida extends React.Component {
     constructor(props)
     {
@@ -22,7 +22,7 @@ class Comida extends React.Component {
                 <img id="img" src={this.props.image} alt="lasagna" width="300"/>
                 <h1>{this.props.nombre}</h1>
                 <p>Precio: {this.props.precio}$</p>
-                <button onClick={this.handleClick}>Agregar a pedido</button>
+                <button onClick={this.handleClick} className="button">Agregar a pedido</button>
             </div>
         );
     }
