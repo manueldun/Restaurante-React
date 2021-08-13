@@ -1,0 +1,23 @@
+.button{
+    padding: 0.5em;
+    border-radius: 0.30em;
+    border:solid;
+    border-width: 2px;
+    background-color: rgb(255 255 255);
+    font-weight: bold;
+    color:rgb(34, 34, 34);
+}
+.textField{
+    border-radius: 0.3em;
+    border-radius: 0.30em;
+    border:solid;
+    border-width: 1px;
+    margin: 0 0.5em;
+}
+.marginVertical
+{
+    margin:0.3em;
+}
+.yellow{
+    background-color: rgb(209 255 0);
+}

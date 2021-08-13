@@ -86,7 +86,8 @@ class Menu extends React.Component {
                     {menuList}
                     <div id="icono-boton-derecho" className="icono-boton">
                         <img src={flechaDer} width="30" alt="flecha" 
-                        onClick={this.handleClickRight} />
+                        onClick={this.handleClickRight} 
+                        />
                     </div>
                 </ul>
             </div >

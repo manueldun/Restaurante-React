@@ -12,7 +12,7 @@
     align-items: center;
     justify-content: left;
     overflow-x: scroll;
-    padding:0 10em;
+    padding:0 10vw;
     scroll-behavior: smooth;
     
 }
@@ -24,13 +24,13 @@
 }
 
 #icono-boton-derecho{
-    right:1em;
+    right:1em
 }
 #icono-boton-izquierdo{
     left:1em;
 }
 .icono-boton img{
-    width:150px;
+    width:15vw;
 }
 .icono-boton{
     position:absolute;

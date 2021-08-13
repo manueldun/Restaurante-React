@@ -19,6 +19,7 @@ h1{
   flex-direction: row;
   align-items: center;
   justify-content: center;  
+  flex-wrap: wrap;
   height:92vh;
 }
 #bienvenida
@@ -47,9 +48,8 @@ h1{
   flex-direction: column;
 }
 #pie-de-pagina{
-  width:80vw;
   margin: 2em auto;
-  padding:3em;
+  padding:10vw;
   background-color: rgb(200,200,200); 
 }
 #enviar-producto

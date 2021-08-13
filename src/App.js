@@ -3,6 +3,7 @@ import React from 'react';
 import Comida from './Comida';
 import Menu from './Menu';
 import Pedido from './Pedido';
+import Checkout from './Checkout';
 
 import pasticho from './imagenes/lasagna.jpg';
 
@@ -10,8 +11,7 @@ import pasticho from './imagenes/lasagna.jpg';
 import {
   BrowserRouter as Router,
   Switch,
-  Route,
-  Link
+  Route
 } from "react-router-dom";
 class App extends React.Component {
   constructor(props) {
@@ -53,19 +53,10 @@ class App extends React.Component {
       <Router>
         <Switch>
           <Route path="/pedido">
-            <div id="enviar-producto">
-              <Pedido pedido={this.state.pedido}
-                total={this.state.total}
-                eliminarPedido={this.eliminarProductoDePedido} 
-                confirmar={false}/>
-                <label>DatosBancarios:</label>
-                <input type="text"></input><br/>
-                <label>Dirección:</label><br/>
-                <input type="text"></input><br/>
-                <Link to="/"><button onClick={this.enviarPedido}>Enviar Pedido</button>
-                </Link>
-
-            </div>
+            <Checkout
+              pedido={this.state.pedido}
+              total={this.state.total}
+            ></Checkout>
           </Route>
           <Route path="/">
             <div id="raiz">
@@ -93,7 +84,8 @@ class App extends React.Component {
                 />
               </div>
 
-              <Pedido pedido={this.state.pedido}
+              <Pedido tabOrCheckout="tab"
+                pedido={this.state.pedido}
                 total={this.state.total}
                 eliminarPedido={this.eliminarProductoDePedido}
                 confirmar={true} />

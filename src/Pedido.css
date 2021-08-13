@@ -1,7 +1,7 @@
 #pedidoUnidad{
     list-style: none;
 }
-#pedido
+.tab
 {
     position: fixed;
     top:15vh;
@@ -11,19 +11,44 @@
     transform: translateX(0);
     left: 100vw;
 }
-#icon{
+.tabIcon{
     position: absolute;
-    border-radius: 1em 0 0 1em;
-    padding:0 2em 0 0;
+    border-radius: 0.5em 0 0 0.5em;
+    padding:0 1em 0 0;
     background-color: rgb(200,10,10);
     height:fit-content;
     transform: translateX(-100%);
     left:1px;
 
 }
-#cart-content{
+@media screen and (max-width: 600px) {
+    .tabIcon img{
+        width:20vw;
+    }
+}
+@media screen and (min-width: 600px) {
+    .tabIcon img{
+        width:10vw;
+    }
+}
+.tabContent{
     background-color: rgb(200,10,10);
-    padding:1em;
+    padding:0.5em;
     border-radius: 0em 1em 1em 1em;
     width:max-content;
+}
+.checkout{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+.checkoutIcon{
+    background-color: rgb(200,10,10);
+    width: fit-content;
+    border-radius: 100%;
+}
+.checkoutContent{
+    padding:2em 5em;
+
 }
