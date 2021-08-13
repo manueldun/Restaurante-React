@@ -74,7 +74,7 @@ class App extends React.Component {
                   </div>
                   <div id="bienvenida" >
                     <h1>Restaurante Delivery & Service</h1>
-                    <p>Envío de comida preparada a domicilio y servicio de cálidad.</p>
+                    <p>Envío de comida preparada a domicilio y servicio de calidad.</p>
                   </div>
                 </div>
               </div>
